@@ -1,0 +1,61 @@
+{
+  "PatchName": "diffPatch for home menu",
+  "AuthorName": "autoDiff",
+  "TargetName": "ResidentMenu.szs",
+  "ID": "Generated_d805dbb5-57a3-462b-8628-402622636018",
+  "HideOnlineBtn": false,
+  "TargetFirmware": 2000,
+  "Files": [
+    {
+      "FileName": "blyt/RdtBase.bflyt",
+      "Patches": [
+        {
+          "PaneName": "L_BtnLR",
+          "Visible": false
+        },
+        {
+          "PaneName": "L_BtnNoti",
+          "Visible": false
+        },
+        {
+          "PaneName": "L_BtnShop",
+          "Visible": false
+        },
+        {
+          "PaneName": "L_BtnPvr",
+          "Position": {
+            "X": -126.0
+          }
+        },
+        {
+          "PaneName": "L_BtnSplay",
+          "Position": {
+            "X": -36.0
+          }
+        },
+        {
+          "PaneName": "L_BtnCtrl",
+          "Position": {
+            "X": 54.0
+          }
+        },
+        {
+          "PaneName": "L_BtnVgc",
+          "Visible": false
+        },
+        {
+          "PaneName": "L_BtnSet",
+          "Position": {
+            "X": 144.0
+          }
+        },
+        {
+          "PaneName": "L_BtnPow",
+          "Position": {
+            "X": 234.0
+          }
+        }
+      ]
+    }
+  ]
+}
